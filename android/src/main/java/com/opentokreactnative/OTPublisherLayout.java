@@ -70,9 +70,9 @@ public class OTPublisherLayout extends FrameLayout{
             if (mPublisher != null) {
                 String style = null;
 
-                if (fitToView == "fit") {
+                if (fitToView.equals("fit")) {
                     style = BaseVideoRenderer.STYLE_VIDEO_FIT;
-                } else if (fitToView == "fill") {
+                } else if (fitToView.equals("fill")) {
                     style = BaseVideoRenderer.STYLE_VIDEO_FILL;
                 }
 

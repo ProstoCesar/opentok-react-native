@@ -80,9 +80,9 @@ public class OTSubscriberLayout extends FrameLayout{
 
                 if (mSubscriber.getStream().getStreamVideoType() == StreamVideoType.StreamVideoTypeScreen) {
                     style = BaseVideoRenderer.STYLE_VIDEO_FIT;
-                } else if (fitToView == "fit") {
+                } else if (fitToView.equals("fit")) {
                     style = BaseVideoRenderer.STYLE_VIDEO_FIT;
-                } else if (fitToView == "fill") {
+                } else if (fitToView.equals("fill")) {
                     style = BaseVideoRenderer.STYLE_VIDEO_FILL;
                 }
 
