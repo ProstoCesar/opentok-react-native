@@ -42,5 +42,4 @@ public class OTSubscriberViewManager extends ViewGroupManager<OTSubscriberLayout
 
         view.setZOrderMediaOverlay(swap);
     }
-
 }
